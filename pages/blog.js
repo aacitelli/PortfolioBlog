@@ -1,5 +1,6 @@
 import Layout from '@components/Layout'
 import PostList from '@components/PostList'
+import Head from 'next/head'
 
 import getPosts from '@utils/getPosts'
 
