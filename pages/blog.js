@@ -8,6 +8,7 @@ const Index = ({ posts, title, description, ...props }) => {
     <>
       <Layout pageTitle={title} description={description}>
         <h1 className="title">Welcome to this demo blog!</h1>
+        <h2>Currently getting this together, check back in a few days!</h2>
 
         <p className="description">
           This is a simple blog built with Next, easily deployable on{' '}
