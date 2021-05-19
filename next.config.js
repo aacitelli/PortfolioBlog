@@ -7,19 +7,13 @@ module.exports = {
     })
     return config
   },
-  rewrites: async () => [
-    {source: '/', destination: '/pages/api/static/index.js'},
-  ],
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/index.html',
+        permanent: true,
+      },
+    ]
+  },
 }
-
-/*
-async redirects() {
-  return [
-    {
-      source: '/',
-      destination: '/index.html',
-      permanent: true,
-    },
-  ]
-},
-*/
