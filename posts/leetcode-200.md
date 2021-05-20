@@ -160,6 +160,7 @@ I outlined the functions (one is the start, one is the recursive part) and it lo
 Time to try it out and see how it does! 
 
 Fixes: 
+
 1. Syntax Error: Adding `self` as an argument to `isNewIsland()` 
 2. Max Recursion Depth Exceeded: I realize quickly that the function will just alternate between two land segments. With recursion, you have to consciously make the problem a little smaller each call, but I never do that. Potential fixes:
     - Don't call it on the direction that it "came from". This can still result in square-based loops, but it's a thought. 
@@ -169,24 +170,27 @@ Fixes:
     - After a bit of debugging, I figure out that, even after I set found, it can go in a circle and essentially just say "yeah, this is in the same island as itself, so it's not a new island". A clean way to do this would be to keep a set of land covered *during this recursive cycle* and only add that set to `found` after we're entirely done recursing. We then only check for the island thing in `found` so that we aren't checking against the current island. 
 
 After these fixes, it passes the basic test case. I test it with the other sample test cases provided, and I get a pretty generic error. I return 2 islands, when the right result is 3. My thoughts when debugging: 
+
 1. I see from my output that I detected the very last island (3, 3) as a new island. This seems a little happenstance, so I reexamine how I handle edge cases. 
     - I realize pretty quickly that I mixed up rows and columns, meaning it would mess up on anything that didn't have the same number of rows and columns. 
     - Switching that instead gives me a "list index out of range" question, so I double-check that len(grid) and len(grid[0]) are giving me what they should; this would be the height and width of the grid, respectively. 
     - I realize the error is that I have x and y switched. Oops. 
+
 2. That doesn't fix everything; the following array gives me 2 as an answer rather than 3: 
-    - 
-    ```python
-    [ 1 1 0 0 0
-    1 1 0 0 0
-    0 0 1 0 0
-    0 0 0 1 1]
-    ```
-    - It seems to be completely skipping the top-left island, for some reason. 
-    - The issue ended up being something specific to Leetcode. They were feeding in several consecutive inputs, and my class variables weren't being reset, so it was starting out at (0, 3) because everything before was already in `self.found`. 
+   
+```python
+[ 1 1 0 0 0
+1 1 0 0 0
+0 0 1 0 0
+0 0 0 1 1]
+```
+- It seems to be completely skipping the top-left island, for some reason. 
+- The issue ended up being something specific to Leetcode. They were feeding in several consecutive inputs, and my class variables weren't being reset, so it was starting out at (0, 3) because everything before was already in `self.found`. 
 
 Upon submitting it, Leetcode gives me a "Time Limit Exceeded" when it gives me an input of a bunch of zeroes on a row, then a bunch of ones in a row, then keeps going for a *long* time. I take this as tacit proof that mine works, just isn't as efficient as they'd like it to be. Guess it's time to figure out if I can optimize! It *should* currently just be one iteration per tile, which I'd imagine is as efficient as you can fundamentally get, so I'm a little puzzled. 
 
 Speed-up attempts:
+
 - A few times when I check for a given coordinate more than once in `self.found`
 - The `self.found_this_iteration` check is likely much quicker than the `self.found` check, so I switched the order 
 
