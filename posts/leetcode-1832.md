@@ -1,5 +1,5 @@
 ---
-title: 'Leetcode #1832 - Check if the Sentence Is Pangram | Python Solution'
+title: 'Leetcode #1832 - Check if the Sentence Is Pangram | Python Solution & Walkthrough'
 author: 'Anden Acitelli'
 date: '2021-05-19'
 ---
