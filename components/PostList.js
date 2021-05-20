@@ -40,7 +40,7 @@ export default function PostList({ posts }) {
       </ul>
       <style jsx>{`
         a {
-          color: rgb(192, 192, 192);
+          color: rgb(64, 64, 64);
         }
       `}</style>
     </div>
