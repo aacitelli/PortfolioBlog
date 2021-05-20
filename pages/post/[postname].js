@@ -36,7 +36,7 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
             <li>Get in touch at <Link href="mailto:andenacitelli@gmail.com"><a>andenacitelli@gmail.com</a></Link></li>
             <li>GitHub <Link href="https://github.com/aacitelli"><a>@aacitelli</a></Link>, LinkedIn <Link href="https://linkedin.com/in/anden-acitelli"><a>/in/anden-acitelli</a></Link></li>
           </ul>
-          <p><li>I try to write concise articles that aren't a waste of time - please consider <Link href="https://paypal.me/andenacitelli"><a>tipping me via Paypal</a></Link> or turning off your adblocker if you got a lot of value from the article. Regardless, thanks for reading!</li></p>
+          <p>I try to write concise articles that aren't a waste of time - please consider <Link href="https://paypal.me/andenacitelli"><a>tipping me via Paypal</a></Link> or turning off your adblocker if you got a lot of value from the article. Regardless, thanks for reading!</p>
         </article>
       </Layout>
       <style jsx>{`
