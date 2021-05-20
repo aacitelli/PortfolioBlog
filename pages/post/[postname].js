@@ -30,7 +30,8 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
           <div>
             <ReactMarkdown source={markdownBody} />
           </div>
-          <h3>Information</h3>
+          <h3>About Me</h3>
+          <p>You can view some information on me at <Link href="/"><a>this website's homepage</a></Link>. Useful links:</p>
           <ul>
             <li><Link href="/blog"><a>List of Articles I've Written</a></Link></li>
             <li>Get in touch at <Link href="mailto:andenacitelli@gmail.com"><a>andenacitelli@gmail.com</a></Link></li>
