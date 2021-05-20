@@ -1,7 +1,7 @@
 ---
 title: 'Leetcode #200 - Number of Islands | Python Solution & Walkthrough'
 author: 'Anden Acitelli'
-date: '2021-05-19'
+date: '2021-05-20'
 ---
 
 ## Intro
