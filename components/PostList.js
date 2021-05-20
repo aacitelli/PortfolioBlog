@@ -3,6 +3,9 @@ import Link from 'next/link'
 export default function PostList({ posts }) {
   if (posts === 'undefined') return null
 
+  // Sort newest to oldest 
+  posts.sort(function(a,b){return new Date(b.frontmatter.date) - new Date(a.frontmatter.date)});
+
   return (
     <div>
       {!posts && <div>No posts!</div>}
