@@ -5,6 +5,10 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
+
+          {/* AdSense */}
+          <script data-ad-client="ca-pub-9753055158202911" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script
             async
