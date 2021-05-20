@@ -10,7 +10,8 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
 
   return (
     <>
-      <Layout pageTitle={`${siteTitle} | ${frontmatter.title}`}>
+      {/* <Layout pageTitle={`${siteTitle} | ${frontmatter.title}`}> */}
+      <Layout pageTitle={`Blog | ${frontmatter.title}`}>
         <div className="back">
           ←{' '}
           <Link href="/blog">
@@ -37,10 +38,10 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
           max-width: 1200px;
         }
         h1 {
-          font-size: 3rem;
+          font-size: 2.5rem;
         }
         h3 {
-          font-size: 2rem;
+          font-size: 1.75rem;
         }
         .hero {
           width: 100%;

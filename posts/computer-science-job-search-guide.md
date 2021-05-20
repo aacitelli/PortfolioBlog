@@ -10,6 +10,7 @@ Hey! I wasn't able to find a comprehensive and concise guide that took me throug
 Note that I hope to amend this article at a later date with more sources; I read about this stuff a lot and am just pulling from a few years of miscellaneous information pulled from all sorts of places. The tl;dr is that I don't have insider information or anything, but consider myself well-researched, and most of this information isn't personal opinion. 
 
 I like to split up progress in hiring into the "stages" you go through:
+
 1. Pre-Application
 2. The Application
 3. Coding Challenges
@@ -32,6 +33,7 @@ Most of this is your resume. A killer resume is **concise and straightforward, n
     - Stuff like LaTeX can often mess this up pretty bad. For this reason, I recommend using a .docx resume and exporting that; it's what I personally do, and what's been recommended to me by a few people. 
 
 **Cover Letters - Yes or No?**
+
 Whether or not you do a cover letter is mostly just a function of how much you want the specific position. If you're just getting a bunch of applications out, I personally feel that time is better spent getting more applications out, but if you're focused on like 10-20 places, it's probably worth it.
 
 Your cover letter should be short and sweet, ideally just a paragraph. Seriously - don't make this *any* longer than you have to to get your point across, as most hiring managers don't like opening a PDF and seeing three long paragraphs. You don't need filler or to recap anything that's on your resume. Use it to say anything relevant not on your resume or to say something you think will distinguish yourself from other candidates. 
@@ -59,6 +61,7 @@ The general advice is to get all your experiences together and organized, then j
 
 ## FAQ
 **How should my preparation changed based on if I'm going for Full-Time vs. an Internship?**
+
 The only thing that really changes is how thoroughly you're interviewed. There's more focus on cultural fit and technical proficiency, so make sure you have behavioral problems down and are good at whiteboarding. 
 
 Here's what the process generally looks like:
