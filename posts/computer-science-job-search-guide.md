@@ -67,9 +67,3 @@ The only thing that really changes is how thoroughly you're interviewed. There's
 Here's what the process generally looks like:
 - **Internship**: Coding Challenge > Phone Screen (Behavioral) > Technical Interview > Offer
 - **Full Time**: Coding Challenge > Phone Screen (Behavioral) > Several interviews, both behavioral and technical, generally all in one day > Offer
-
-## Check Me Out
-Thanks for reading! Some useful links:
-- [List of Articles I've Written](/blog)
-- Get in touch at [andenacitelli@gmail.com](mailto:andenacitelli@gmail.com)
-- My [GitHub](https://github.com/aacitelli), [LinkedIn](https://linkedin.com/in/anden-acitelli)

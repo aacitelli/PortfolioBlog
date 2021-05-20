@@ -78,9 +78,3 @@ My initial thought is to make a map of the alphabet, something like this, where 
 After iterating through and checking every letter, you then iterate through this alphabet map, returning False if you find even a single False, and returning True if they were all true. I programmed this and it ended up being pretty easy; see the "solution" section. 
 
 Probably would have been cleaner to just make a set of the alphabet letters and remove each letter from the set as it was found, then return True if the set was empty at the end. 
-
-## Check Me Out
-Thanks for reading! Some useful links:
-- [List of Articles I've Written](/blog)
-- Get in touch at [andenacitelli@gmail.com](mailto:andenacitelli@gmail.com)
-- My [GitHub](https://github.com/aacitelli), [LinkedIn](https://linkedin.com/in/anden-acitelli)

@@ -30,6 +30,12 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
           <div>
             <ReactMarkdown source={markdownBody} />
           </div>
+          <h3>Check Me Out</h3>
+          <ul>
+            <li><Link href="/blog"><a>List of Articles I've Written</a></Link></li>
+            <li>Get in touch at <Link href="mailto:andenacitelli@gmail.com"><a>andenacitelli@gmail.com</a></Link></li>
+            <li>GitHub <Link href="https://github.com/aacitelli"><a>@aacitelli</a></Link>, LinkedIn <Link href="https://linkedin.com/in/anden-acitelli"><a>/in/anden-acitelli</a></Link></li>
+          </ul>
         </article>
       </Layout>
       <style jsx>{`
