@@ -30,7 +30,7 @@ export default function PostList({ posts }) {
           posts.map((post) => {
             return (
               <li key={post.slug}>
-                {months[new Date(post.frontmatter.date).getMonth()] + " " + new Date(post.frontmatter.date).getDay() + ", " + new Date(post.frontmatter.date).getFullYear()}: {` `}
+                {months[new Date(post.frontmatter.date).getMonth()] + " " + (new Date(post.frontmatter.date).getDate() + 1) + ", " + new Date(post.frontmatter.date).getFullYear()}: {` `}
                 <Link href={{ pathname: `/post/${post.slug}` }}>
                   <a>{post?.frontmatter?.title}</a>
                 </Link>
