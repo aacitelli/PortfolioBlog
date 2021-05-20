@@ -38,6 +38,11 @@ export default function PostList({ posts }) {
             )
           })}
       </ul>
+      <style jsx>{`
+        a {
+          color: rgb(192, 192, 192);
+        }
+      `}</style>
     </div>
   )
 }
