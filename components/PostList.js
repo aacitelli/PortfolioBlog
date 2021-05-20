@@ -6,6 +6,22 @@ export default function PostList({ posts }) {
   // Sort newest to oldest 
   posts.sort(function(a,b){return new Date(b.frontmatter.date) - new Date(a.frontmatter.date)});
 
+  // Used for date formatting 
+  const months = [
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
+    'August',
+    'September',
+    'October',
+    'November',
+    'December'
+  ]
+
   return (
     <div>
       {!posts && <div>No posts!</div>}
@@ -14,7 +30,7 @@ export default function PostList({ posts }) {
           posts.map((post) => {
             return (
               <li key={post.slug}>
-                {post.frontmatter.date}: {` `}
+                {months[new Date(post.frontmatter.date).getMonth()] + " " + new Date(post.frontmatter.date).getDay() + ", " + new Date(post.frontmatter.date).getFullYear()}: {` `}
                 <Link href={{ pathname: `/post/${post.slug}` }}>
                   <a>{post?.frontmatter?.title}</a>
                 </Link>
