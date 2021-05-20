@@ -24,7 +24,7 @@ Before you even apply, you want to be doing some things that make things easier 
 1. **LinkedIn**: Make sure you keep this at least reasonably up to date, and cultivate your network where you can. Inbound opportunities (recruiters reaching out to *you*) are very valuable.
 2. **Networking Events**: Oftentimes universities and university organizations host tons of networking events. Go, show your resume off, connect with everyone you meet on LinkedIn. It's often useful to approach this from a perspective of learning about the people, what they do, and what the industry is like, rather than explicitly being there for a job. Show interest in them; that will distinguish you. 
 
-## 1. The Application
+## 2. The Application
 Most of this is your resume. A killer resume is **concise and straightforward, number-based, and gets through ATS**. You want to get through ATS, then have a resume that is quick and non-distracting for a hiring manager to read through. Focus on getting the maximum information conveyed per word. 
 
 1. **Concise and Straightforward**: Do *not* use filler words. A line 75% of the way across the page that is packed with information is far better than a sparser line that goes the whole way across. Hiring managers value someone who can state concretely what they learned.
@@ -38,7 +38,7 @@ Whether or not you do a cover letter is mostly just a function of how much you w
 
 Your cover letter should be short and sweet, ideally just a paragraph. Seriously - don't make this *any* longer than you have to to get your point across, as most hiring managers don't like opening a PDF and seeing three long paragraphs. You don't need filler or to recap anything that's on your resume. Use it to say anything relevant not on your resume or to say something you think will distinguish yourself from other candidates. 
 
-## 2. Coding Challenges
+## 3. Coding Challenges
 The majority of the solution to getting good at these is to practice on sites like Leetcode and Hackerrank, no way around it. 
 
 In terms of strategy, some pointers:
@@ -46,7 +46,7 @@ In terms of strategy, some pointers:
 - Use Leetcode/Hackerrank's mock interview feature to put yourself under the same time crunch. Don't skimp on it. 
 - Most challenges will be something along the lines of a Leetcode Easy and a Medium. Completely dependent on the position and the company, though. 
 
-## 3. Technical Interviews & Whiteboarding
+## 4. Technical Interviews & Whiteboarding
 The main advantage with technical interviews is that you can talk to your interviewer. 
 
 Main strategy points:
@@ -54,10 +54,13 @@ Main strategy points:
 - A lot of companies will deliberately give you difficult problems, and you aren't expected to get the answer quickly. I believe the interviewers themselves are the ones that decide the problems, actually (source: CTCI?), but that likely depends on the company. 
 - Communicate what you *do* know. If you're someone in university, you know a lot more theory than anyone in bootcamps or so on. Use that. 
 
-## 4. Behavioral Interviews
+## 5. Behavioral Interviews
 Practice is also pretty important for these, but making sure you practice correctly is important. 
 
 The general advice is to get all your experiences together and organized, then just find a ton of questions to mock interview yourself with and just drill them until it's more fluid for you. Your brain starts to internalize stuff, but it's not a short process. 
+
+## 6. Offer!
+Getting an offer is great, but it can often be worth it to try and negotiate, especially if you have more than one offer. I can't speak authoritatively on this, but [this blog post](https://www.kalzumeus.com/2012/01/23/salary-negotiation/) is generally considered the holy grail of SWE Negotation, so give it a read.
 
 ## FAQ
 **How should my preparation changed based on if I'm going for Full-Time vs. an Internship?**
