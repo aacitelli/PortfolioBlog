@@ -14,6 +14,8 @@ Leetcode Page: [Leetcode #1832 - Check if the Sentence Is Pangram](https://leetc
 Given a sentence, return True if every letter in the English language can be found in it.
 
 ## Solution
+**Note:** While time complexity doesn't change, initializing a set to the set of alphabet letters, then removing them as they're found, then checking if `len(set)` is zero every time is likely much faster. Space complexity, while it doesn't change in magnitude, is a little better as well. 
+
 ```python
 def checkIfPangram(self, sentence):        
     alphabetMap = {
