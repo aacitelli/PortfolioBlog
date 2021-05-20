@@ -80,4 +80,7 @@ After iterating through and checking every letter, you then iterate through this
 Probably would have been cleaner to just make a set of the alphabet letters and remove each letter from the set as it was found, then return True if the set was empty at the end. 
 
 ## Check Me Out
-Thanks for reading! Click [here](/blog) for a list of everything I've written. 
+Thanks for reading! Some useful links:
+- [List of Articles I've Written](/blog)
+- Get in touch at [andenacitelli@gmail.com](mailto:andenacitelli@gmail.com)
+- My [GitHub](https://github.com/aacitelli), [LinkedIn](https://linkedin.com/in/anden-acitelli)

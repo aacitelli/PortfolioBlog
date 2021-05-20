@@ -11,7 +11,7 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
   return (
     <>
       {/* <Layout pageTitle={`${siteTitle} | ${frontmatter.title}`}> */}
-      <Layout pageTitle={`Blog | ${frontmatter.title}`}>
+      <Layout pageTitle={`Blog | ${frontmatter.title}`} description={`Hey! I'm Anden, a Software Developer looking to contribute my knowledge on all sorts of things back into the community. See more articles like '${frontmatter.title}' at my blog!`} >
         <div className="back">
           ←{' '}
           <Link href="/blog">
