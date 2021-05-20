@@ -35,6 +35,7 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
             <li><Link href="/blog"><a>List of Articles I've Written</a></Link></li>
             <li>Get in touch at <Link href="mailto:andenacitelli@gmail.com"><a>andenacitelli@gmail.com</a></Link></li>
             <li>GitHub <Link href="https://github.com/aacitelli"><a>@aacitelli</a></Link>, LinkedIn <Link href="https://linkedin.com/in/anden-acitelli"><a>/in/anden-acitelli</a></Link></li>
+            <li>If my content was helpful to you, please consider <Link href="https://paypal.me/andenacitelli"><a>tipping me via Paypal</a></Link>.</li>
           </ul>
         </article>
       </Layout>
