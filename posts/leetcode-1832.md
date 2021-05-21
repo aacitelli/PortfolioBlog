@@ -11,8 +11,6 @@ Hey! The goal of my Leetcode series, rather than to just present the optimal sol
 
 Leetcode Page: [Leetcode #1832 - Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)
 
-Given a sentence, return True if every letter in the English language can be found in it.
-
 ## Solution
 **Note:** While time complexity doesn't change, initializing a set to the set of alphabet letters, then removing them as they're found, then checking if `len(set)` is zero every time is likely much faster. Space complexity, while it doesn't change in magnitude, is a little better as well. 
 

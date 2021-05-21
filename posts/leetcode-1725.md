@@ -11,8 +11,6 @@ Hey! The goal of my Leetcode series, rather than to just present the optimal sol
 
 Leetcode Page: [Leetcode #1725 - Number Of Rectangles That Can Form The Largest Square](https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/)
 
-Given a sentence, return True if every letter in the English language can be found in it.
-
 ## Solution
 
 ```python
