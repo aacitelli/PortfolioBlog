@@ -31,7 +31,7 @@ export default function PostList({ posts }) {
             return (
               <li key={post.slug}>
                 {months[new Date(post.frontmatter.date).getMonth()] + " " + (new Date(post.frontmatter.date).getDate() + 1) + ", " + new Date(post.frontmatter.date).getFullYear()}: {` `}
-                <Link href={{ pathname: `/post/${post.slug}` }}>
+                <Link href={{ pathname: `/blog/${post.slug}` }}>
                   <a>{post?.frontmatter?.title}</a>
                 </Link>
               </li>

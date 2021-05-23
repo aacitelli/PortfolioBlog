@@ -16,7 +16,7 @@ export default function Header() {
       <style jsx>{`
         header {
           width: 100%;
-          height: 100px;
+          height: 60px;
           border-bottom: 1px solid #eaeaea;
           display: flex;
           justify-content: center;
