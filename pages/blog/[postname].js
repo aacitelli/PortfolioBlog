@@ -43,7 +43,7 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
       <style jsx>{`
         article {
           width: 100%;
-          max-width: 1200px;
+          max-width: 700px;
         }
         h1 {
           font-size: 2.5rem;
