@@ -5,9 +5,6 @@ module.exports = {
       test: /\.md$/,
       use: 'raw-loader',
     })
-    if (isServer) {
-      require('./scripts/generate-sitemap');
-    }
     return config
   },
   async redirects() {

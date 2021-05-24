@@ -25,8 +25,6 @@ class Sitemap extends React.Component {
         })
     
         const pages = staticPages.concat(dynamicPages);
-        console.log("pages: ")
-        console.log(pages)
       
         // TODO: Set priorities for blog pages to be lower
         const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
