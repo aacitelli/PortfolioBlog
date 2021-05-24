@@ -5,7 +5,6 @@ class Sitemap extends React.Component {
     static async getInitialProps(ctx) {
         console.log("ctx: ");
         console.log(ctx)
-        
         const baseUrl = {
           development: "http://localhost:3000",
           production: "https://andenacitelli.com",
@@ -47,9 +46,9 @@ class Sitemap extends React.Component {
           </urlset>
         `;
       
-        ctx.res.setHeader("Content-Type", "text/xml");
-        ctx.res.write(sitemap);
-        ctx.res.end();
+        res.setHeader("Content-Type", "text/xml");
+        res.write(sitemap);
+        res.end();
       
         return {
           props: {},
