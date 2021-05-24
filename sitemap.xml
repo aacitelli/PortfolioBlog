@@ -19,39 +19,39 @@
 </url>
 
 <!-- Posts -->
-<!-- TODO: Automate the generation of these --> 
+<!-- TODO: Automate the generation of sitemap.xml --> 
 <url>
-  <loc>https://www.andenacitelli.com/post/leetcode-200</loc>
+  <loc>https://www.andenacitelli.com/blog/leetcode-200</loc>
   <lastmod>2021-05-20T03:06:49+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.andenacitelli.com/post/leetcode-1725</loc>
+  <loc>https://www.andenacitelli.com/blog/leetcode-1725</loc>
   <lastmod>2021-05-20T03:06:49+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.andenacitelli.com/post/leetcode-1828</loc>
+  <loc>https://www.andenacitelli.com/blog/leetcode-1828</loc>
   <lastmod>2021-05-20T03:06:49+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.andenacitelli.com/post/leetcode-1832</loc>
+  <loc>https://www.andenacitelli.com/blog/leetcode-1832</loc>
   <lastmod>2021-05-19T03:06:49+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.andenacitelli.com/post/computer-science-job-search-guide</loc>
+  <loc>https://www.andenacitelli.com/blog/computer-science-job-search-guide</loc>
   <lastmod>2021-05-20T03:06:49+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.andenacitelli.com/post/coding-challenges-and-whiteboarding-a-comprehensive-guide</loc>
+  <loc>https://www.andenacitelli.com/blog/coding-challenges-and-whiteboarding-a-comprehensive-guide</loc>
   <lastmod>2021-05-20T03:06:49+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.andenacitelli.com/post/time-and-space-complexity-a-review</loc>
+  <loc>https://www.andenacitelli.com/blog/time-and-space-complexity-a-review</loc>
   <lastmod>2021-05-20T03:06:49+00:00</lastmod>
   <priority>0.64</priority>
 </url>

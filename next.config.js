@@ -1,6 +1,6 @@
 module.exports = {
   target: 'serverless',
-  webpack: function (config) {
+  webpack: function (config, { isServer }) {
     config.module.rules.push({
       test: /\.md$/,
       use: 'raw-loader',
