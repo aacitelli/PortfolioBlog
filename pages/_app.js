@@ -9,6 +9,8 @@ import "/assets/vendor/aos/aos.css"
 import "/assets/minified-css/style.css"
 */
 
+import "../universal.css"
+
 // This default export is required in a new `pages/_app.js` file.
 export default function MyApp({ Component, pageProps }) {
     return <Component {...pageProps} />
