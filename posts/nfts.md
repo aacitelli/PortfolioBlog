@@ -1,5 +1,5 @@
 ---
-title: 'GameStop NFTs - What's Going On, And What's Next?'
+title: "GameStop NFTs - What's Going On, And What's Next?"
 author: 'Anden Acitelli'
 date: '2021-05-26'
 ---
