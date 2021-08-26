@@ -14,6 +14,11 @@ module.exports = {
         destination: '/index.html',
         permanent: true,
       },
+      {
+        source: '/5912hw2',
+        destination: '/5912.html',
+        permanent: true,
+      },
     ]
   },
   assetPrefix: ".",
